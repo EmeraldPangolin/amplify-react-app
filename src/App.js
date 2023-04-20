@@ -5,8 +5,9 @@ import React, { useState, useEffect } from 'react';
 
 // Import the API category from AWS Amplify
 import { API } from 'aws-amplify';
-
+import { GitHubBornOn } from './GitHubBornOn';
 import './App.css';
+
 
 const App = () => {
   // Create coins variable and set to empty array
@@ -58,6 +59,7 @@ const App = () => {
           </div>
         ))
       }
+      <GitHubBornOn/>
     </div>
   );
 }
