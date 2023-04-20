@@ -6,7 +6,6 @@ or in the "license" file accompanying this file. This file is distributed on an 
 See the License for the specific language governing permissions and limitations under the License.
 */
 
-hi
 
 
 const express = require('express')
@@ -25,6 +24,17 @@ app.use(function(req, res, next) {
   next()
 });
 
+/*creating the coins route*/
+app.get('/coins', function(req, res) {
+  const coins = [
+    { name: 'Bitcoin', symbol: 'BTC', price_usd: "10000" },
+    { name: 'Ethereum', symbol: 'ETH', price_usd: "400" },
+    { name: 'Litecoin', symbol: 'LTC', price_usd: "150" }
+  ]
+  res.json({
+    coins
+  })
+})
 
 /**********************
  * Example get method *
