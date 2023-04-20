@@ -8,9 +8,11 @@ export const GitHubBornOn = () => {
 
 	// Define function to all API
 	const fetchBorn = async () => {
+  
 		const data = await API.get("cryptoapi", `/born`);
 		updateBorn(data.born);
-	};
+
+    };
 
 	// Call fetchBorn function when my component loads
 	useEffect(() => {
