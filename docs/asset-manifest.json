@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EmeraldPangolin/amplify-react-app/static/css/main.073c9b0a.css",
+    "main.js": "/EmeraldPangolin/amplify-react-app/static/js/main.e2044456.js",
+    "static/js/787.179bae72.chunk.js": "/EmeraldPangolin/amplify-react-app/static/js/787.179bae72.chunk.js",
+    "static/media/logo.svg": "/EmeraldPangolin/amplify-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EmeraldPangolin/amplify-react-app/index.html",
+    "main.073c9b0a.css.map": "/EmeraldPangolin/amplify-react-app/static/css/main.073c9b0a.css.map",
+    "main.e2044456.js.map": "/EmeraldPangolin/amplify-react-app/static/js/main.e2044456.js.map",
+    "787.179bae72.chunk.js.map": "/EmeraldPangolin/amplify-react-app/static/js/787.179bae72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e2044456.js"
+  ]
+}
